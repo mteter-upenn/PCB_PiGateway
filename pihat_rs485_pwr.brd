@@ -189,7 +189,7 @@
 <text x="35.306" y="33.782" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">PIN_CTRL</text>
 <text x="35.306" y="27.178" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">TX_CTRL</text>
 <text x="19.304" y="25.908" size="0.762" layer="21" font="vector" ratio="15" align="bottom-center">120</text>
-<text x="19.304" y="19.304" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">270</text>
+<text x="19.304" y="19.304" size="0.762" layer="21" font="vector" ratio="15" rot="R180" align="bottom-center">180</text>
 <text x="16.764" y="12.7" size="1.27" layer="21" font="vector" ratio="15">Univ. of Pennsylvania FRES</text>
 <text x="13.462" y="49.53" size="0.762" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">GND</text>
 <text x="13.462" y="52.07" size="0.762" layer="22" font="vector" ratio="15" rot="MR270" align="bottom-center">VIN</text>

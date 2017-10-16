@@ -1056,8 +1056,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="-3.81" y="0" radius="0.381" width="0" layer="94"/>
 <circle x="3.81" y="0" radius="0.381" width="0" layer="94"/>
 <pin name="G" x="5.08" y="-11.43" length="middle" rot="R90"/>
-<pin name="S" x="10.16" y="0" length="middle" rot="R180"/>
-<pin name="D" x="-10.16" y="0" length="middle"/>
+<pin name="S" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="D" x="-7.62" y="0" length="short"/>
 <text x="-3.302" y="4.064" size="1.27" layer="95">&gt;NAME</text>
 <text x="-3.556" y="-8.382" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -1066,8 +1066,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
 <wire x1="6.35" y1="1.27" x2="-6.35" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.254" layer="94"/>
-<pin name="P$1" x="-11.43" y="0" length="middle"/>
-<pin name="P$2" x="11.43" y="0" length="middle" rot="R180"/>
+<pin name="P$1" x="-8.89" y="0" length="short"/>
+<pin name="P$2" x="8.89" y="0" length="short" rot="R180"/>
 <wire x1="-5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
 <text x="-3.81" y="2.54" size="1.27" layer="95">&gt;NAME</text>
@@ -1106,12 +1106,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.43" y1="5.08" x2="11.43" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="11.43" y1="-5.08" x2="-11.43" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-11.43" y1="-5.08" x2="-11.43" y2="5.08" width="0.254" layer="94"/>
-<pin name="P$1" x="-8.89" y="10.16" length="middle" rot="R270"/>
-<pin name="P$2" x="-2.54" y="-10.16" length="middle" rot="R90"/>
-<pin name="P$3" x="8.89" y="-10.16" length="middle" rot="R90"/>
-<pin name="P$4" x="8.89" y="10.16" length="middle" rot="R270"/>
-<pin name="P$5" x="2.54" y="-10.16" length="middle" rot="R90"/>
-<pin name="P$6" x="-8.89" y="-10.16" length="middle" rot="R90"/>
+<pin name="P$1" x="-8.89" y="7.62" length="short" rot="R270"/>
+<pin name="P$2" x="-2.54" y="-7.62" length="short" rot="R90"/>
+<pin name="P$3" x="8.89" y="-7.62" length="short" rot="R90"/>
+<pin name="P$4" x="8.89" y="7.62" length="short" rot="R270"/>
+<pin name="P$5" x="2.54" y="-7.62" length="short" rot="R90"/>
+<pin name="P$6" x="-8.89" y="-7.62" length="short" rot="R90"/>
 <text x="-12.7" y="-2.54" size="1.27" layer="95" rot="R90">&gt;NAME</text>
 <text x="13.97" y="-2.54" size="1.27" layer="96" rot="R90">&gt;VALUE</text>
 </symbol>
@@ -1123,8 +1123,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
 <wire x1="1.27" y1="2.54" x2="2.032" y2="3.302" width="0.254" layer="94"/>
-<pin name="CA" x="0" y="7.62" length="middle" rot="R270"/>
-<pin name="AN" x="0" y="-6.35" length="middle" rot="R90"/>
+<pin name="CA" x="0" y="5.08" length="short" rot="R270"/>
+<pin name="AN" x="0" y="-3.81" length="short" rot="R90"/>
 <text x="2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
@@ -6537,7 +6537,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="AN"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="203.2" y1="67.31" x2="203.2" y2="69.85" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="67.31" x2="203.2" y2="72.39" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -6784,17 +6784,17 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="218.44" y1="86.36" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="CA"/>
 <wire x1="218.44" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="86.36" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="86.36" x2="203.2" y2="81.28" width="0.1524" layer="91"/>
 <junction x="218.44" y="86.36"/>
 <pinref part="Q5" gate="G$1" pin="P$4"/>
-<wire x1="187.96" y1="83.82" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="81.28" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
 <junction x="203.2" y="86.36"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="232.41" y1="86.36" x2="232.41" y2="82.55" width="0.1524" layer="91"/>
 <junction x="232.41" y="86.36"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
-<wire x1="184.15" y1="97.79" x2="187.96" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="97.79" x2="187.96" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="97.79" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="187.96" y="86.36"/>
 </segment>
@@ -6829,14 +6829,14 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="Q5" gate="G$1" pin="P$6"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="63.5" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="66.04" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="G$1" pin="P$2"/>
 <wire x1="170.18" y1="60.96" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="176.53" y1="63.5" x2="176.53" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="176.53" y1="66.04" x2="176.53" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="176.53" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
 <junction x="170.18" y="60.96"/>
 <pinref part="Q5" gate="G$1" pin="P$5"/>
-<wire x1="181.61" y1="63.5" x2="181.61" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="66.04" x2="181.61" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="181.61" y1="60.96" x2="176.53" y2="60.96" width="0.1524" layer="91"/>
 <junction x="176.53" y="60.96"/>
 </segment>
@@ -6845,7 +6845,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="Q5" gate="G$1" pin="P$3"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="187.96" y1="63.5" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="66.04" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="187.96" y1="58.42" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="179.07" y1="86.36" x2="179.07" y2="58.42" width="0.1524" layer="91"/>
@@ -6856,17 +6856,17 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q5" gate="G$1" pin="P$1"/>
-<wire x1="170.18" y1="83.82" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="81.28" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="86.36" x2="161.29" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="161.29" y1="86.36" x2="161.29" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="161.29" y1="97.79" x2="163.83" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="97.79" x2="166.37" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="P$2"/>
 <wire x1="161.29" y1="86.36" x2="153.67" y2="86.36" width="0.1524" layer="91"/>
 <junction x="161.29" y="86.36"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="153.67" y1="86.36" x2="151.13" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="86.36" x2="151.13" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="86.36" x2="151.13" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="153.67" y1="83.82" x2="153.67" y2="86.36" width="0.1524" layer="91"/>
 <junction x="153.67" y="86.36"/>
 </segment>
@@ -6875,7 +6875,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="F1" gate="G$1" pin="P$1"/>
 <wire x1="167.64" y1="116.84" x2="151.13" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="116.84" x2="151.13" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="116.84" x2="151.13" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="5V"/>
 </segment>
 </net>
