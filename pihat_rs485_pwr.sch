@@ -637,7 +637,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <wire x1="0.762" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="21"/>
 </package>
-<package name="2X20">
+<package name="PI_2X20">
 <description>&lt;h3&gt;Plated Through Hole - 2x20&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:40&lt;/li&gt;
@@ -878,27 +878,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-25.019" y1="-2.921" x2="-23.368" y2="-2.921" width="0.2032" layer="21"/>
 <wire x1="-25.019" y1="-2.921" x2="-23.368" y2="-2.921" width="0.2032" layer="22"/>
 </package>
-<package name="D24V22FX_FLAT">
-<pad name="PG" x="0" y="7.62" drill="1.016" diameter="1.8796"/>
-<pad name="EN" x="0" y="5.08" drill="1.016" diameter="1.8796"/>
-<pad name="VIN" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="GND" x="0" y="0" drill="1.016" diameter="1.8796" shape="square"/>
-<wire x1="-1.27" y1="-8.89" x2="16.51" y2="-8.89" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="-8.89" x2="16.51" y2="8.89" width="0.2032" layer="21"/>
-<wire x1="16.51" y1="8.89" x2="-1.27" y2="8.89" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="8.89" x2="-1.27" y2="-8.89" width="0.2032" layer="21"/>
-<text x="-1.905" y="7.62" size="1.6764" layer="51" align="center-right">PG</text>
-<text x="-1.905" y="2.54" size="1.6764" layer="51" align="center-right">VIN</text>
-<text x="-1.905" y="0" size="1.6764" layer="51" align="center-right">GND</text>
-<text x="-1.905" y="-2.54" size="1.6764" layer="51" align="center-right">VOUT</text>
-<text x="-1.27" y="9.525" size="1.6764" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-9.525" size="1.6764" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="1.27" y1="8.89" x2="1.27" y2="-3.81" width="0.2032" layer="51"/>
-<pad name="VOUT" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-1.905" y="5.08" size="1.6764" layer="51" align="center-right">EN</text>
-<circle x="1.016" y="-6.604" radius="1.0922" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="-3.81" x2="-1.27" y2="-3.81" width="0.2032" layer="51"/>
-<circle x="14.224" y="6.604" radius="1.0922" width="0.2032" layer="51"/>
+<package name="TERMBLK_FEMALE_3PIN_90_NOSILK">
+<pad name="1" x="-5.08" y="0" drill="1.524" diameter="2.54"/>
+<pad name="2" x="0" y="0" drill="1.524" diameter="2.54"/>
+<pad name="3" x="5.08" y="0" drill="1.524" diameter="2.54"/>
+<wire x1="-8.62" y1="-2.81" x2="8.62" y2="-2.81" width="0.2032" layer="51"/>
+<wire x1="8.62" y1="-2.81" x2="8.62" y2="7.89" width="0.2032" layer="51"/>
+<wire x1="8.62" y1="7.89" x2="8.62" y2="16.19" width="0.2032" layer="51"/>
+<wire x1="8.62" y1="16.19" x2="-8.62" y2="16.19" width="0.2032" layer="51"/>
+<wire x1="-8.62" y1="16.19" x2="-8.62" y2="7.89" width="0.2032" layer="51"/>
+<text x="-9.49" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="9.652" y="-1.27" size="1.27" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
+<text x="-5.08" y="-3.54" size="1.27" layer="51" rot="R90" align="center-right">GND</text>
+<text x="0" y="-3.54" size="1.27" layer="51" rot="R90" align="center-right">NEG</text>
+<text x="5.08" y="-3.54" size="1.27" layer="51" rot="R90" align="center-right">POS</text>
+<pad name="4" x="-5.08" y="5.08" drill="1.524" diameter="2.54"/>
+<pad name="5" x="0" y="5.08" drill="1.524" diameter="2.54"/>
+<pad name="6" x="5.08" y="5.08" drill="1.524" diameter="2.54"/>
+<wire x1="-8.62" y1="7.89" x2="-8.62" y2="-2.81" width="0.2032" layer="51"/>
+<wire x1="8.62" y1="7.89" x2="-8.62" y2="7.89" width="0.2032" layer="51" style="shortdash"/>
+</package>
+<package name="R-78-EXX">
+<pad name="VIN" x="-2.54" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="GND" x="0" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="VOUT" x="2.54" y="0" drill="1.016" diameter="1.8796"/>
+<wire x1="-5.75" y1="-2" x2="5.85" y2="-2" width="0.2032" layer="21"/>
+<wire x1="5.85" y1="-2" x2="5.85" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="5.85" y1="6.5" x2="-5.75" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="-5.75" y1="6.5" x2="-5.75" y2="-2" width="0.2032" layer="21"/>
+<text x="-4.445" y="0" size="1.6764" layer="51" align="center-right">VIN</text>
+<text x="1.905" y="2.54" size="1.6764" layer="51" align="center-right">GND</text>
+<text x="10.795" y="0" size="1.6764" layer="51" align="center-right">VOUT</text>
+<text x="-3.81" y="6.985" size="1.6764" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-2.54" size="1.6764" layer="27" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -1178,22 +1190,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-3.81" y1="12.7" x2="-3.81" y2="-7.62" width="0.254" layer="95"/>
 <wire x1="3.556" y1="-27.94" x2="3.556" y2="-30.48" width="0.254" layer="95"/>
 </symbol>
-<symbol name="D24V22F5">
+<symbol name="R-78-E5.0">
 <description>Step down power supply from Pololu.   
 
 Output: 5V, 500mA
 Max Vin: 36V</description>
-<wire x1="-2.54" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<pin name="PG" x="-7.62" y="5.08" length="middle"/>
-<pin name="EN" x="-7.62" y="2.54" length="middle"/>
-<pin name="VIN" x="-7.62" y="0" length="middle"/>
-<pin name="GND" x="-7.62" y="-2.54" length="middle"/>
-<text x="-2.54" y="8.382" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="5V" x="-7.62" y="-5.08" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="VIN" x="-7.62" y="2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="0" length="middle"/>
+<pin name="5V" x="-7.62" y="-2.54" length="middle"/>
+<text x="-2.54" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1328,6 +1338,16 @@ Max Vin: 36V</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="FEMALE" package="TERMBLK_FEMALE_3PIN_90_NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1 4"/>
+<connect gate="G$1" pin="2" pad="2 5"/>
+<connect gate="G$1" pin="3" pad="3 6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="DPDT_DIP_SMD" prefix="S">
@@ -1425,7 +1445,7 @@ Max Vin: 36V</description>
 <gate name="G$1" symbol="RASPBERRYPI_40_PIN_GPIO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_PTH_NO_SHROUND" package="2X20">
+<device name="_PTH_NO_SHROUND" package="PI_2X20">
 <connects>
 <connect gate="G$1" pin="3.3V@1" pad="1"/>
 <connect gate="G$1" pin="3.3V@17" pad="17"/>
@@ -1474,21 +1494,15 @@ Max Vin: 36V</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="D24V22F5" prefix="PS">
-<description>Step down voltage regulator from Pololu.  
-
-Output: 5V, 500mA
-Max Input: 36V</description>
+<deviceset name="R-78-E5.0" prefix="PS">
 <gates>
-<gate name="G$1" symbol="D24V22F5" x="0" y="0"/>
+<gate name="G$1" symbol="R-78-E5.0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="D24V22FX_FLAT">
+<device name="" package="R-78-EXX">
 <connects>
 <connect gate="G$1" pin="5V" pad="VOUT"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="PG" pad="PG"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 </connects>
 <technologies>
@@ -6326,7 +6340,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="485" library="UPenn" deviceset="TERMBLK_3PIN" device="NOSILK"/>
+<part name="485" library="UPenn" deviceset="TERMBLK_3PIN" device="FEMALE" value="TERMBLK_3PINFEMALE"/>
 <part name="POWER" library="UPenn" deviceset="TERMBLK_3PIN" device="NOSILK"/>
 <part name="S1" library="UPenn" deviceset="DPDT_DIP_SMD" device=""/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="33K"/>
@@ -6347,7 +6361,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="PS1" library="UPenn" deviceset="D24V22F5" device=""/>
+<part name="PS1" library="UPenn" deviceset="R-78-E5.0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6432,7 +6446,7 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND7" gate="1" x="203.2" y="64.77"/>
 <instance part="GND10" gate="1" x="218.44" y="64.77"/>
 <instance part="GND12" gate="1" x="153.67" y="71.12"/>
-<instance part="PS1" gate="G$1" x="175.26" y="121.92"/>
+<instance part="PS1" gate="G$1" x="175.26" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -6446,9 +6460,9 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="VIN"/>
 <wire x1="160.02" y1="128.27" x2="165.1" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="121.92" x2="165.1" y2="128.27" width="0.1524" layer="91"/>
 <pinref part="PS1" gate="G$1" pin="VIN"/>
 <wire x1="167.64" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="121.92" x2="165.1" y2="128.27" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6506,9 +6520,9 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="160.02" y1="123.19" x2="162.56" y2="123.19" width="0.1524" layer="91"/>
-<pinref part="PS1" gate="G$1" pin="GND"/>
 <wire x1="167.64" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="119.38" x2="162.56" y2="123.19" width="0.1524" layer="91"/>
+<pinref part="PS1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
