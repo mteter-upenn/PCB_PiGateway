@@ -2078,7 +2078,7 @@ design rules under a new name.</description>
 <attribute name="DESIGNER" value="Nobody" x="0" y="46.99" size="1.778" layer="27" display="off"/>
 <attribute name="VERSION" value="v01" x="0" y="46.99" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="680" x="22.098" y="16.002" rot="R180">
+<element name="R2" library="SparkFun-Resistors" package="0603" value="510" x="22.098" y="16.002" rot="R180">
 <attribute name="PROD_ID" value=" " x="22.098" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value=" " x="22.098" y="16.002" size="1.778" layer="27" rot="R180" display="off"/>
 </element>

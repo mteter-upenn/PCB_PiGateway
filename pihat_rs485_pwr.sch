@@ -6306,7 +6306,7 @@ Source: AVX .. aphvc.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="510"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1K"/>
 <part name="PWR" library="SparkFun-LED" deviceset="LED" device="0603" value="GRN"/>
 <part name="RTCB" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
