@@ -613,29 +613,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.524" y1="-1.778" x2="1.524" y2="-1.778" width="0.127" layer="21"/>
 </package>
 <package name="SOT363">
-<smd name="5" x="1.4" y="0" dx="1" dy="0.4" layer="1"/>
-<smd name="2" x="-1.4" y="0" dx="1" dy="0.4" layer="1"/>
-<smd name="6" x="1.4" y="0.75" dx="1" dy="0.6" layer="1"/>
-<smd name="1" x="-1.4" y="0.75" dx="1" dy="0.6" layer="1"/>
-<smd name="3" x="-1.4" y="-0.75" dx="1" dy="0.6" layer="1"/>
-<smd name="4" x="1.4" y="-0.75" dx="1" dy="0.6" layer="1"/>
+<smd name="5" x="1.3" y="0" dx="1.2" dy="0.4" layer="1"/>
+<smd name="2" x="-1.3" y="0" dx="1.2" dy="0.4" layer="1"/>
+<smd name="6" x="1.3" y="0.75" dx="1.2" dy="0.6" layer="1"/>
+<smd name="1" x="-1.3" y="0.75" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.3" y="-0.75" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.3" y="-0.75" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.6" y1="1.1" x2="0.6" y2="1.1" width="0.127" layer="21"/>
 <wire x1="-0.6" y1="-1.1" x2="0.6" y2="-1.1" width="0.127" layer="21"/>
-<circle x="-0.5" y="0.7" radius="0.15" width="0" layer="21"/>
+<circle x="-0.3" y="0.7" radius="0.15" width="0" layer="21"/>
 <text x="-1.5" y="1.5" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="DO-214AA_UNI">
 <smd name="CA" x="2.4384" y="0" dx="2.159" dy="2.2606" layer="1"/>
 <smd name="AN" x="-2.4384" y="0" dx="2.159" dy="2.2606" layer="1"/>
-<text x="-2.794" y="1.524" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.048" y="-3.048" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.794" y="2.286" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.048" y="-3.556" size="1.27" layer="27">&gt;VALUE</text>
 <polygon width="0.127" layer="21">
 <vertex x="-0.762" y="1.016"/>
 <vertex x="0.762" y="0"/>
 <vertex x="-0.762" y="-1.016"/>
 </polygon>
 <wire x1="0.762" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="1.905" x2="2.286" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.286" y1="-1.905" x2="2.286" y2="-1.905" width="0.127" layer="21"/>
 </package>
 <package name="PI_2X20">
 <description>&lt;h3&gt;Plated Through Hole - 2x20&lt;/h3&gt;
